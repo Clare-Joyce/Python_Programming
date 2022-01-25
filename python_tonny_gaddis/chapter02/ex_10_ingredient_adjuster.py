@@ -1,4 +1,4 @@
-#ingredient adjuster
+# Ingredient adjuster
 """
 recipe for 48 cookies
 1.5 cups of sugar
@@ -7,9 +7,9 @@ recipe for 48 cookies
 """
 num_cookies = int(input("Enter the number of cookies you need: "))
 
-amount_sugar = (1.5 * num_cookies)/48
-amount_butter = num_cookies/48
-amount_flour = (2.75 * num_cookies)/48
+amount_sugar = (1.5 * num_cookies) / 48
+amount_butter = num_cookies / 48
+amount_flour = (2.75 * num_cookies) / 48
 
 print("For ", num_cookies, "number of cookies, you require: ")
 
