@@ -1,6 +1,6 @@
-#display personal information
+# Display personal information
 
-print("Name: Ngoran Clare-Joyce Fomonyuy.")
-print("Address: Buea, South West Region, 00237")
-print("Phone Number: 674646865")
+print("Name: N. Clare-Joyce F.")
+print("Address: South West Region, 00237")
+print("Phone Number: 0732268644")
 print("College Major: Electrical and Electronics Engineering.")
