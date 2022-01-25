@@ -1,17 +1,17 @@
-# calculating the % of male and female students in a class
+# Calculating the % of male and female students in a class
 
-#prompt usr for the number of female students
+# Prompt the user for the number of female students
 females = int(input("Enter number of female students: "))
 
-#prompt usr for the number of male students
+# Prompt user for the number of male students
 males = int(input("Enter number of male students: "))
 
 total_num_students = males + females
-#calculate male percentage
-male_percentage = males * 100/total_num_students
-#calculate female percenatge
-female_percentage = females * 100/total_num_students
+# Calculate male percentage
+male_percentage = males/total_num_students
+# Calculate female percenatge
+female_percentage = females/total_num_students
 
-#display the percentages
-print("Percentage of males: ", male_percentage)
-print("Percentage of females: ", female_percentage)
+# Display the percentages
+print("Percentage of males: ", format(male_percentage, '.1%'))
+print("Percentage of females: ", format(female_percentage, '.1%'))
