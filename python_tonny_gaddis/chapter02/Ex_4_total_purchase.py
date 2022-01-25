@@ -15,5 +15,3 @@ for i in range(5):
 
 	total =+ subtotal
 print("\nYour total bill is $", total)
-
-
