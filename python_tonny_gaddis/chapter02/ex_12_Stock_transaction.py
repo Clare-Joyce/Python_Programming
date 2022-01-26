@@ -15,6 +15,7 @@ print("Amount received by stock broker after sales $", stock_broker_commission2)
 
 stock_broker = stock_broker_commission2 + stock_broker_commission
 amount_left = amount_sold  - stock_broker
+print("Amount left: ", format(amount_left, ',.2f'))
 if amount_left > amount_paid:
 	print("profit made\n")
 else:
